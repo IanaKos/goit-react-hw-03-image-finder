@@ -25,6 +25,7 @@ class Modal extends Component {
       this.props.onClose();
     }
   };
+
   render() {
     const { largeImageURL } = this.props.image;
     return createPortal(
